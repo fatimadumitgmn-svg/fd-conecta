@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fdconecta.com.br/sitemap.xml
