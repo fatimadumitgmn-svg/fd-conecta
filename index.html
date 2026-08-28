@@ -456,3 +456,57 @@ document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>do
 #processo .step-num{transition:background-color .22s ease,color .22s ease,border-color .22s ease,transform .22s ease,box-shadow .22s ease;cursor:default}
 #processo .step-num:hover{background:var(--orange)!important;color:#fff!important;border-color:var(--orange)!important;transform:translateY(-3px);box-shadow:0 10px 24px rgba(255,122,0,.18)}
 </style>
+
+<style id="fd-photo-footer-logo-final-fix-20260828">
+/* Foto Sobre: respeita a proporção original em notebook e desktop */
+.about-photo img{
+  display:block!important;
+  width:100%!important;
+  height:auto!important;
+  aspect-ratio:3 / 4!important;
+  object-fit:cover!important;
+  object-position:center 42%!important;
+}
+
+/* Logo do rodapé: preserva a proporção real em todas as telas */
+.site-footer .footer-logo{
+  display:block!important;
+  width:150px!important;
+  max-width:150px!important;
+  height:auto!important;
+  max-height:70px!important;
+  aspect-ratio:auto!important;
+  object-fit:contain!important;
+  object-position:left center!important;
+}
+
+/* Celular */
+@media(max-width:760px){
+  .about-photo{
+    width:100%!important;
+    max-width:430px!important;
+    margin:0 auto!important;
+    padding:12px 0 0 12px!important;
+  }
+  .about-photo:before{
+    inset:0 14px 14px 0!important;
+  }
+  .about-photo img{
+    width:100%!important;
+    height:420px!important;
+    aspect-ratio:auto!important;
+    object-fit:cover!important;
+    object-position:center 42%!important;
+    border-radius:20px!important;
+  }
+  .site-footer .footer-logo{
+    width:150px!important;
+    max-width:150px!important;
+    height:auto!important;
+    max-height:70px!important;
+    aspect-ratio:auto!important;
+    object-fit:contain!important;
+  }
+}
+</style>
+
