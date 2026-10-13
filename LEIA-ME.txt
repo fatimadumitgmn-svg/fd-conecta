@@ -1,0 +1,20 @@
+FD Conecta | Portfólio atualizado
+
+PUBLICAÇÃO NO GITHUB E NETLIFY
+Extraia o ZIP e substitua os arquivos do repositório pelo conteúdo da pasta fd-conecta-main.
+Mantenha index.html, portfolio.html, images, _headers, robots.txt e sitemap.xml na raiz de publicação.
+O site é estático e não precisa de instalação ou build.
+
+ENTREGA
+Home: Paulo Pinto, Luar Violeta Perez, Embaré Kraft e Marcella Moreira Vet.
+Portfólio: os dez projetos solicitados, com apresentações uniformes em notebook e celular.
+Pasta capturas: capturas originais de Marcella Moreira Vet e EB Fisio e suas apresentações.
+As telas foram capturadas em navegador Chromium real em 1440 x 900 e 390 x 844, sem recriar os sites.
+As imagens de exibição foram salvas em WebP com nomes novos para evitar o cache das imagens anteriores.
+
+VERIFICAÇÃO
+Home e Portfólio conferidos em desktop e celular.
+Imagens locais carregando, links de projetos abrindo e âncoras locais verificadas.
+Nenhum erro de JavaScript ou rolagem horizontal nas duas resoluções testadas.
+Google Analytics G-RSWQFR5LJ1, metadados SEO, sitemap, robots e _headers preservados.
+Esta entrega não altera o repositório GitHub nem publica no Netlify automaticamente.
